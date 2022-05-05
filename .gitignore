@@ -2,7 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-*Rproj
-*pdf
-*rmd
-*/
+*.Rproj
+*.pdf
+*.rmd
+*.csv
+*.parquet
