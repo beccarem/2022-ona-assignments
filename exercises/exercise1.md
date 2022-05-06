@@ -51,7 +51,13 @@ relations
 connections_fixed$Name <- paste(connections_fixed$`First Name`, substring(connections_fixed$`Last Name`,0,1))
 nodes <- data.frame(connections_fixed$Name)
 colnames(nodes) <- c('node_key')
+head(nodes, 3)
 ```
+
+    ##          node_key
+    ## 1 Anqi (Angela) C
+    ## 2       Xintong L
+    ## 3         Sunny W
 
 ## Create the edges dataframe
 
@@ -87,7 +93,13 @@ for(row in 1:count){
 # delete first row
 edges = edges[-1,]
 rownames(edges) <- 1:nrow(edges)
+head(edges, 3)
 ```
+
+    ##        from                   to
+    ## 1 Xintong L Cheok Ieng (Betty) A
+    ## 2 Xintong L              Senan A
+    ## 3   Vahid H              Tehut B
 
 ## Form the network
 
