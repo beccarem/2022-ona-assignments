@@ -336,7 +336,9 @@ The fact that some of coefficients are not statistically significant
 makes it hard to draw definitive conclusions. But from what we can
 observe, men spend more time on average to process applications. Men
 with higher degree centrality are little more productive than men
-without.
+without. For women, the degree centrality coefficient is significant,
+which means that the higher the degree centrality is the least amount of
+time it takes to process an application.
 
 Conclusions for USPTO: Examiners who reach out to their colleagues are
 more efficient than other. There is a difference in productivity between
