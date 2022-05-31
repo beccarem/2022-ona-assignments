@@ -4,6 +4,7 @@
 .Ruserdata
 *.Rproj
 *.pdf
-*.rmd
+exercise*.rmd
+hello-ona.rmd
 *.csv
 *.parquet
